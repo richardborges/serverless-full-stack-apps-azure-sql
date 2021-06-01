@@ -1,8 +1,22 @@
 Local IP address  120.153.171.5
 Username: cloudadmin
-pwd:  01Jun[2021]password
-$uniqueID 592986
+pwd:  01Jun[2021]password 
+$uniqueID 698921
 $location westus
-$servername  bus-server592986
+$servername  bus-server698921
 
-ConnectionString: Server=bus-server592986.database.windows.net,1433;Initial Catalog=bus-db;User Id=cloudadmin;Password=01Jun@)@!password;Connection Timeout=30;
+ConnectionString: 
+Server=bus-server592986.database.windows.net,1433;Initial Catalog=bus-db;User Id=cloudadmin;Password=01Jun@)@!password;Connection Timeout=30;
+Server=tcp:bus-server698921.database.windows.net,1433;Database=bus-db;User ID=cloudadmin;Password=01Jun@)@!password;Encrypt=true;Connection Timeout=30;
+Server=bus-server698921.database.windows.net,1433;Initial Catalog=bus-db;User Id=cloudadmin;Password=01Jun@)@!password;Connection Timeout=30;
+
+TERM=dumb
+sqlcmd -S bus-server592986.database.windows.net -P '01Jun@)@!password' -U cloudadmin -d bus-db
+
+https://github.com/richardborges/serverless-full-stack-apps-azure-sql
+
+https://prod-163.westus.logic.azure.com:443/workflows/c9891a51d0f74a538d8bc26249b37cda/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=vPQ_4OMLeok1sMUHxK7YuY_rPOzjGUdyy4JR6JbZC1k
+
+GitHub token:  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
+
+https://black-bay-06a7df500.azurestaticapps.net/?rid=100113&gid=1
