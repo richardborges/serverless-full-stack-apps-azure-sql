@@ -1,0 +1,8 @@
+Local IP address  120.153.171.5
+Username: cloudadmin
+pwd:  01Jun[2021]password
+$uniqueID 592986
+$location westus
+$servername  bus-server592986
+
+ConnectionString: Server=bus-server592986.database.windows.net,1433;Initial Catalog=bus-db;User Id=cloudadmin;Password=01Jun@)@!password;Connection Timeout=30;
